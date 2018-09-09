@@ -7,7 +7,7 @@ import com.readystatesoftware.sqliteasset.SQLiteAssetHelper;
 
 public class DatabaseHelper extends SQLiteAssetHelper
 {
-
+    //Clase de ayuda para la base de datos
     private static final String DATABASE_NAME = "iscitsfc_informatec.db";
     private static final int DATABASE_VERSION = 1;
 
