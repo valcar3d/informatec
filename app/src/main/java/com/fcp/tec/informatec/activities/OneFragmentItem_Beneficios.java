@@ -59,7 +59,7 @@ public class OneFragmentItem_Beneficios extends AppCompatActivity
 
         //Sincronización automática
         USincronizacion sincronizacion = new USincronizacion();
-        sincronizacion.sincronizarAutomaticamente(this, ContractParaBecas.AUTORIDAD, 1);
+        sincronizacion.sincronizarAutomaticamente(this, ContractParaBecas.AUTORIDAD, 3600);
 
         //region Codigo Original
 

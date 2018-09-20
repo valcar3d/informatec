@@ -68,7 +68,7 @@ public class FiveFragment_Logros extends Fragment
         View view = inflater.inflate(R.layout.fragment_five, container, false);
 
         USincronizacion uSincronizacion = new USincronizacion();
-        uSincronizacion.sincronizarAutomaticamente(getContext(), ContractLogros.AUTORIDAD, 1);
+        uSincronizacion.sincronizarAutomaticamente(getContext(), ContractLogros.AUTORIDAD, 3600);
 
         ArrayList<Logros> list;
         list = getLogros();

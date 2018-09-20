@@ -31,7 +31,7 @@ public class OneFragmentItem_Preguntas extends AppCompatActivity
         setContentView(R.layout.fragment_one_item_preguntas);
 
         USincronizacion uSincronizacion = new USincronizacion();
-        uSincronizacion.sincronizarAutomaticamente(this, ContractPreguntasFrecuentes.AUTORIDAD, 1);
+        uSincronizacion.sincronizarAutomaticamente(this, ContractPreguntasFrecuentes.AUTORIDAD, 3600);
 
         expandableListView = (ExpandableListView) findViewById(R.id.expandablelistview_preguntas);
         expandableListView.setGroupIndicator(null);

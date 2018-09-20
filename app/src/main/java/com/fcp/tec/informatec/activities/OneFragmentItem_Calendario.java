@@ -56,7 +56,7 @@ public class OneFragmentItem_Calendario extends AppCompatActivity
 
         //Sincronizacion automatica
         USincronizacion sincronizacion = new USincronizacion();
-        sincronizacion.sincronizarAutomaticamente(this, ContractCalendario.AUTORIDAD, 1);
+        sincronizacion.sincronizarAutomaticamente(this, ContractCalendario.AUTORIDAD, 3600);
 
 
 

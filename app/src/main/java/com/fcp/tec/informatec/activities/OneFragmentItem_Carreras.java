@@ -54,11 +54,11 @@ public class OneFragmentItem_Carreras extends AppCompatActivity
 
         //Sincronizacion automatica de Carreras
         USincronizacion sincronizacion = new USincronizacion();
-        sincronizacion.sincronizarAutomaticamente(this, ContractCarreras.AUTORIDAD, 1);
+        sincronizacion.sincronizarAutomaticamente(this, ContractCarreras.AUTORIDAD, 3600);
 
         //Sincronizacion automatica de Materias
         USincronizacion uSincronizacion = new USincronizacion();
-        uSincronizacion.sincronizarAutomaticamente(this, ContractMaterias.AUTORIDAD, 1);
+        uSincronizacion.sincronizarAutomaticamente(this, ContractMaterias.AUTORIDAD, 3600);
 
         //region Inicializado UI y BD
 

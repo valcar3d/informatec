@@ -51,7 +51,7 @@ public class OneFragmentItem_Test extends AppCompatActivity
         super.onCreate(savedInstanceState);
         setContentView(R.layout.fragment_test);
         USincronizacion uSincronizacion = new USincronizacion();
-        uSincronizacion.sincronizarAutomaticamente(this, ContractPreguntasTest.AUTORIDAD, 1);
+        uSincronizacion.sincronizarAutomaticamente(this, ContractPreguntasTest.AUTORIDAD, 3600);
 
         //Evitar rotar la pantalla(No se adapta correctamente)
         ///Portrait: Vertical Landscape: Horizontal
