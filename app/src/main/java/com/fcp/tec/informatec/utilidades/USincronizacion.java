@@ -9,10 +9,11 @@ import android.util.Log;
 
 public final class USincronizacion
 {
+    private long FRECUENCIA_SINCRONIZACION = 256000;
 
-    public void sincronizarAutomaticamente(Context context, String autoridad, long frecuenciaSincronizacion)
+    public void sincronizarAutomaticamente(Context context, String autoridad)
     {
-        long SYNC_FREQUENCY = frecuenciaSincronizacion;
+
 
         Account cuentaActiva = UCuentas.obtenerCuentaActiva(context);
 
@@ -27,7 +28,7 @@ public final class USincronizacion
         if (UWeb.hayConexion(context))
         {
             ContentResolver.setSyncAutomatically(cuentaActiva, autoridad, true);
-            ContentResolver.addPeriodicSync(cuentaActiva, autoridad, new Bundle(), SYNC_FREQUENCY);
+            ContentResolver.addPeriodicSync(cuentaActiva, autoridad, new Bundle(), FRECUENCIA_SINCRONIZACION);
         }
 
     }
