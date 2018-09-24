@@ -72,7 +72,7 @@ public class FourFragment_Testimoniales extends Fragment
         View view = inflater.inflate(R.layout.fragment_four, container, false);
 
         USincronizacion uSincronizacion = new USincronizacion();
-        uSincronizacion.sincronizarAutomaticamente(getContext(), ContractTestimoniales.AUTORIDAD, 3600);
+        uSincronizacion.sincronizarAutomaticamente(getContext(), ContractTestimoniales.AUTORIDAD);
 
 
         ArrayList<Testimoniales> listaTestimoniales;

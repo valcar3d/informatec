@@ -72,7 +72,7 @@ public class TwoFragment_Instalaciones extends Fragment
         View view = inflater.inflate(R.layout.fragment_two, container, false);
 
         USincronizacion uSincronizacion = new USincronizacion();
-        uSincronizacion.sincronizarAutomaticamente(getContext(), ContractInstalaciones.AUTORIDAD, 3600);
+        uSincronizacion.sincronizarAutomaticamente(getContext(), ContractInstalaciones.AUTORIDAD);
 
         ArrayList<Instalaciones> list;
 

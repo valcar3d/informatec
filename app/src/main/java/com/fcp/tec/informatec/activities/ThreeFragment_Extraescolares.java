@@ -47,7 +47,7 @@ public class ThreeFragment_Extraescolares extends Fragment
 
         //Sincronizacion automaticamente
         USincronizacion sincronizacion = new USincronizacion();
-        sincronizacion.sincronizarAutomaticamente(getContext(), ContractExtraescolar.AUTORIDAD, 3600);
+        sincronizacion.sincronizarAutomaticamente(getContext(), ContractExtraescolar.AUTORIDAD);
 
         return view;
     }

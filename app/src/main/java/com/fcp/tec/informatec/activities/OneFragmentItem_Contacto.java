@@ -30,7 +30,7 @@ public class OneFragmentItem_Contacto extends AppCompatActivity
         setContentView(R.layout.ini_var_contacto);
 
         USincronizacion uSincronizacion = new USincronizacion();
-        uSincronizacion.sincronizarAutomaticamente(this, ContractUnidadAcademica.AUTORIDAD, 3600);
+        uSincronizacion.sincronizarAutomaticamente(this, ContractUnidadAcademica.AUTORIDAD);
 
 
         txtContactoFcp = (TextView) findViewById(R.id.txtContactoFcp);

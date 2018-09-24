@@ -29,8 +29,8 @@ public class OneFragmentItem_Padmin extends AppCompatActivity
 
 
         USincronizacion uSincronizacion = new USincronizacion();
-        uSincronizacion.sincronizarAutomaticamente(this, ContractReqExaAdmision.AUTORIDAD, 3600);
-        uSincronizacion.sincronizarAutomaticamente(this, ContractReqInscripcion.AUTORIDAD, 3600);
+        uSincronizacion.sincronizarAutomaticamente(this, ContractReqExaAdmision.AUTORIDAD);
+        uSincronizacion.sincronizarAutomaticamente(this, ContractReqInscripcion.AUTORIDAD);
 
         card_text = (TextView) findViewById(R.id.card_text_descripcion_logros);
         card_text.setMovementMethod(new ScrollingMovementMethod());
