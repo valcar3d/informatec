@@ -9,7 +9,7 @@ import android.util.Log;
 
 public final class USincronizacion
 {
-    private long FRECUENCIA_SINCRONIZACION = 256000;
+    private long FRECUENCIA_SINCRONIZACION = 259200;
 
     public void sincronizarAutomaticamente(Context context, String autoridad)
     {
